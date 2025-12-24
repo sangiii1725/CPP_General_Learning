@@ -36,7 +36,7 @@ int main(){
     cout<<R2->area_rectangle()<<endl;
 
     rectangle* R3;
-    R3 = new rectangle;
+    R3 = new rectangle(10, 8);
     R3->set_length(20);
     R3->set_breadth(18);
 
