@@ -27,5 +27,17 @@ class rectangle{
 };
 
 int main(){
+
+    rectangle R1;
+    R1.display();
+
+    rectangle R2;
+    R2.set_length(10);
+    R2.set_breadth(8);
+    R2.display();
+
+    rectangle R3(R2);
+    R3.display();
+
     return 0;
 }
