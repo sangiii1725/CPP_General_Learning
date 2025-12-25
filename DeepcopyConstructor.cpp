@@ -7,7 +7,9 @@ class example{
     public:
         example(){*ptr = 0;}
         example(int d){*ptr = d;}
-        example(example& ex){*ptr = *ex.ptr;} // Deep copy constructor
+        // example(example& ex){*ptr = *ex.ptr;} // shallow copy constructor
+        example(example& ex){double* ptr = new double(20.5);} // deep copy constructor
+
 
         int get_data(){return *ptr;}
         void set_data(int d){*ptr = d;}
