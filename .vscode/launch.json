@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/roopa/CPP_Practice/CPP_General_Learning",
-      "program": "c:/Users/roopa/CPP_Practice/CPP_General_Learning/build/Debug/outDebug",
+      "cwd": "d:/CPP_Practice/CPP_General_Learning",
+      "program": "d:/CPP_Practice/CPP_General_Learning/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
