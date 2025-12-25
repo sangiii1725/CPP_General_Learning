@@ -6,13 +6,13 @@ class example{
         double* ptr = new double(20.5);
     public:
         example(){*ptr = 0;}
-        example(int d){*ptr = d;}
+        example(double d){*ptr = d;}
         // example(example& ex){*ptr = *ex.ptr;} // shallow copy constructor
         example(example& ex){double* ptr = new double(20.5);} // deep copy constructor
 
 
-        int get_data(){return *ptr;}
-        void set_data(int d){*ptr = d;}
+        double get_data(){return *ptr;}
+        void set_data(double d){*ptr = d;}
 
         void display(){cout<<"Data: "<<get_data()<<endl;}
 
